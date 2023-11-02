@@ -1,18 +1,24 @@
 #keyboard {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    gap: 15px;
-    width: 400px;
-    padding: 20px;
-    background-color: purple;
-}
-
-.key {
+    gap: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f0f0f0;
     border: 1px solid #ccc;
-    padding: 30px;
-    text-align: center;
-    background-color: purple;
+    border-radius: 5px;
+} 
+button {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
     cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
 }
 
 
